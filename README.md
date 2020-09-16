@@ -1,4 +1,4 @@
-# CITS4419_project
+# CITS4419 project
 ### Roarke Holland 21742366 | Thi Phuong Thao Le 22755019
 
 For the purpose of this experiment it is only necessary to use the python jupyter notebook provided.
