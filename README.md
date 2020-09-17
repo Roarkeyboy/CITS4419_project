@@ -1,5 +1,10 @@
-# CITS4419 project
+# CITS4419 project - Measuring Wi-Fi Signals to Analyse RSSI
 ### Roarke Holland 21742366 | Thi Phuong Thao Le 22755019
+This notebook aims to provide analysis of the measured data taken on the UWA campus. The data is firstly read into a dataframe format then analysed with plots being created which display RSSI drop off over the entire course of measuring a location. Upon creating the plots they are saved as jpg files in the root directory under "imgs". An additional plot is made with the unique channels found during the measuring process and the number of SSIDs on the given channels. These plots are then saved as mentioned previously. The created plots are then appended in an iframe format onto a map of the UWA campus where the user can inspect the measurements at given locations. Analysis of the RSSI information is then discussed at the end of the notebook where recommendations are given to the various locations and a table of the summaries RSSI data is shown.
+
+### Example of UI and detection:
+### ![](map_example.png)
+
 
 For the purpose of this experiment it is only necessary to use the python jupyter notebook provided.
 However, the convert_csv.py file demonstrates how the raw data is taken from .txt format into a .csv file which can be used in the notebook.
